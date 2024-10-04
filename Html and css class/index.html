@@ -1,0 +1,276 @@
+<!-- HTML Syntax -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Used all the text formatting and added an image -->
+<h1><i>Lorem ipsum</i></h1>
+<strong>dolor sit amet</strong>
+<b>consectetur adipisicing elit.</b>
+<h2><u>Qui, aliquam asperiores.</u></h2>
+<img src="https://cdn.pixabay.com/photo/2023/10/14/09/19/meditation-8314420_640.png" alt="Peace out" width="200" height="150"> <br> 
+<em>Recusandae</em>
+<mark>sapiente itaque dolor?</mark>
+<h3>Sed autem, <small>nemo quibusdam</small> quaerat <del>omnis</del> <ins>accusamus</ins></h3>
+<h4><big>sapiente</big> ab consequuntur aspernatur</h4>
+<h5>1<sub>2</sub> <br>
+    2<sup>3334444</sup></h5>
+<h5>esse nulla unde facilis <code><q>1+2+3</q></code> wsdcvb ooo nfyubje mklh</h5>
+<h6>trd <span>bhjk oiuyn</span> qefc <strike>mjhggd</strike> vimm</h6>
+<!-- Lists in HTML -->
+<h2>Ordered List</h2>
+<ol>
+    <li >wxyz</li>
+    <li>efgh</li>
+    <li>hijk</li>
+</ol>
+<ol type="A">
+    <li >wxyz</li>
+    <li>efgh</li>
+    <li>hijk</li>
+</ol>
+<ol start="7">
+    <li >wxyz</li>
+    <li>efgh</li>
+    <li>hijk</li>
+</ol>
+<ol reversed>
+    <li >wxyz</li>
+    <li>efgh</li>
+    <li>hijk</li>
+</ol>
+<h2>Unordered list</h2>
+<ul>
+    <li>1234</li>
+    <li>5678</li>
+    <li>0101</li>
+</ul>
+<ul type="square">
+    <li>1234</li>
+    <li>5678</li>
+    <li>0101</li>
+</ul>
+<h2>Descriptive list</h2>
+<dl>
+    <dt>Sugar</dt>
+    <dd>- White and brown</dd>
+    <dt>Pizza</dt>
+    <dd>- Cheese and Onion</dd>
+</dl>
+<h2>Nested List</h2>
+<ol>
+    <li>Mix ingredients
+        <ul>
+            <li>Milk</li>
+            <li>Sugar</li>
+            <li>Coffee powder</li>
+        </ul>
+        <li>Stir and Boil</li>
+        <li>Serve when ready</li>
+    </li>
+</ol>
+<!-- Tables in HTML -->
+<h2>HTML Table</h2>
+<table bgcolor="pink" cellpadding="5" border="1px solid black">
+    <tr>
+        <th>Country</th>
+        <th>Capital</th>
+        <th>Population</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>Delhi</td>
+        <td>1000</td>
+    </tr>
+    <tr></tr>
+        <td>US</td>
+        <td>LA</td>
+        <td>500</td>
+    </tr>
+    <tr></tr>
+        <td>UK</td>
+        <td>London</td>
+        <td>300</td>
+    </tr>
+</table>
+<!-- HTML Forms -->
+<h2>HTML Forms</h2>
+<form>
+    <fieldset>
+
+        <legend>Basic HTML Form</legend>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="First name"><br>
+
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="Last name"><br>
+
+<label for="phnum">Phone number</label><br>
+<input type="tel" id="phnum" name="Phone number"><br>
+
+<label for="email">Email ID:</label><br>
+<input type="email" id="email" name="Email ID"><br>
+
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="Password"><br>
+
+<label for="rollnum">Roll number:</label><br>
+<input type="number" id="rollnum" name="Roll number"><br>
+
+<label for="search">Find:</label><br>
+<input type="search" id="search" name="Find something"><br>
+
+<label for="url">URL:</label><br>
+<input type="text" id="url" name="url"><br>
+
+<label for="file">Attach file</label><br>
+<input type="file" id="file" name="Attach file"><br>
+
+<label for="file password">File Password:</label><br>
+<input type="hidden" id="file password" name="File Password"><br>
+
+<label for="click">Click here</label><br>
+<input type="button" id="click" name="Click here"><br>
+
+<label for="week">Choose a week:</label><br>
+<input type="week" id="week" name="Week"><br>
+
+<label for="time">Time:</label><br>
+<input type="time" id="time" name="Time"><br>
+
+<p>Gender</p>
+<input type="radio" id="Male" name="Gender">
+<label for="Male">Male</label><br>
+<input type="radio" id="Female" name="Gender">
+<label for="Female">Female</label><br>
+
+<label for="rating">Rate 1-10</label><br>
+<input type="range" id="rating" name="Rate 1-10"><br>
+
+<label for="submit">Submit</label><br>
+<input type="submit" id="submit" name="Submit"><br>
+
+</fieldset>
+</form>
+<br>
+<!-- *************************************************************************** -->
+<h2>Form 2</h2>
+
+<form action="/submit" method="post" autocomplete="on">
+
+<fieldset>
+
+<legend>Registration Form</legend><br>
+
+<!-- /text input for name -->
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" placeholder="Enter your name here" required><br><br>
+
+<!-- email input -->
+<label for="email">Email ID:</label><br>
+<input type="email" id="email" name="email" placeholder="Enter your Email ID here" required><br><br>
+
+<!-- password input -->
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password" minlength="8" placeholder="Enter your password here" required><br><br>
+
+<!-- Tel input for phone -->
+<label for="phone">Phone number:</label><br>
+<input type="tel" id="phone" name="phone" placeholder="0123456789" required><br><br>
+
+<!-- Number input -->
+<label for="age">Age</label><br>
+<input type="number" id="age" name="Age" min="1" max="100"><br><br>
+
+<!-- Date Input for DOB -->
+<label for="DOB">DOB:</label><br>
+<input type="date" id="DOB" name="DOB" required><br><br>
+
+<!-- Date and datetime-->
+<label for="date">Date</label><br>
+<input type="datetime" id="date" name="Date"><br><br>
+
+<label for="datetime">Datetime</label><br>
+<input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+<!-- Time -->
+ <label for="time">Time</label><br>
+<input type="time" id="time" value="Time"><br><br>
+
+<!-- Radio buttons -->
+ <label for="gender">Gender:</label><br><br>
+ <input type="radio" id="male" name="Gender">
+ <label for="male">Male</label><br>
+ <input type="radio" id="female" name="Gender">
+ <label for="female">Female</label><br>
+ <input type="radio" id="others" name="Gender">
+ <label for="others">Others</label><br><br>
+
+ <!-- Dropdown -->
+<label for="country">Country name:</label>
+<select id="country" name="country">
+<option value=" ">Select your country</option>
+<option value="India">India</option>
+<option value="Nepal">Nepal</option>
+<option value="Singapore">Singapore</option>
+</select>
+<br><br>
+
+<!-- Checkbox -->
+<label for="hobbies">Hobbies:</label><br><br>
+<label for="Wrestle">Wrestle</label>
+<input type="checkbox" id="Wrestle" name="Hobbies"><br>
+<label for="Cook">Cook</label>
+<input type="checkbox" id="Cook" name="Hobbies"><br>
+<label for="Fly">Fly</label>
+<input type="checkbox" id="Fly" name="Hobbies"><br><br>
+
+<!-- Color -->
+<label for="color">Favorite color:</label><br><br>
+<input type="color" id="color" name="Fav color"><br><br>
+
+<!-- Text area -->
+<label for="comments">Comments:</label><br><br>
+<textarea id="comments" name="Comments"></textarea>
+<br><br>
+
+<!-- File upload -->
+<label for="file">Resume:</label><br><br>
+<input type="file" id="file" name="Resume"><br><br>
+
+<!-- Portfolio Image -->
+<label for="image">Portfolio Image:</label><br><br>
+<input type="file" id="image" name="Portfolio Image" accept="image/*">
+<br><br>
+
+<!-- GIF -->
+<label for="GIF">Your pet GIF:</label><br><br>
+<input type="file" id="GIF" name="Pet GIF" accept="image/GIF"><br><br>
+
+<!-- Video -->
+<label for="video">Introduction video:</label><br><br>
+<input type="file" id="video" name="Intro video" accept="video/*"><br><br>
+
+<!-- Range -->
+<label for="range">How happy are you in life on a scale of 1-10?</label><br><br>
+<input type="range" id="range" name="Happieness meter" min="0" max="10"><br>
+
+<hr>
+<!-- Submit and reset -->
+ <input type="submit" value="Submit">
+ <input type="reset" value="Reset">
+
+</fieldset>
+</form>
+
+<br>
+<nav>Lorem ipsum dolor sit amet.</nav>
+
+<!-- CSS -->
+
+</body>
+</html>

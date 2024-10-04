@@ -1,0 +1,86 @@
+* {
+    margin: 10px;
+    ;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://t3.ftcdn.net/jpg/02/73/16/24/360_F_273162497_ShAAB1TH0vhM4UUWbhBuao8jtGBDubwD.jpg'); /* Background image of a happy dog */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display:flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.673); /* Semi-transparent background for header */
+}
+
+.logo img {
+    width: 250px; /* Adjust size of the logo */
+}
+
+
+nav ul li {
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    color: #adeaa6;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #46c8df;
+    color: #000;
+}
+
+/* Main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.6); /* Background behind text for readability */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(95, 85, 85, 0.673);
+    list-style-type: none;
+    border: 1px;
+
+}
+
+footer li a:hover {
+    text-transform: uppercase;
+    background-color: #46c8df;
+    color: #000;
+}
+footer li a {
+    color: #adeaa6;
+}
